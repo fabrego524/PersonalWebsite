@@ -1,3 +1,7 @@
+/*Basis of CSS was taken from */ 
+/* https://github.com/lonekorean/gist-syntax-themes/blob/master/stylesheets/obsidian.css */
+/*Some issues of syntax styling and highlighting was also fixed.*/
+
 body .gist .highlight {
     background: #293134;
 }
@@ -94,14 +98,3 @@ body .gist .pl-s .pl-s1,
 body .gist .pl-smi {
     color: #e0e2e4;
 }
-pre {
-  padding: 20px;
-  color: #ffffff;
-  background: #434343; }
-
-body .gist .line-data, body .gist .file-data, body .gist .line-numbers {
-  color: #ffffff;
-  background: #434343; }
-body .gist .gist-meta {
-  color: #ffffff;
-  background: #000000; }
