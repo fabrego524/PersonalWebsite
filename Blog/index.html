@@ -95,6 +95,7 @@
 	
 	<figure>
 		<script src="https://gist.github.com/fabrego524/6fb84f2446343995c9c80665804e2d30.js?file=belonging.py"></script>
+		<figcaption>The Python Script used to exctract the data from the Chicago Health Atlas API</figcaption>
 	</figure>
 	<p>The data provided is defined in a certain way, where community area statistics are not split into different population segments, while statistics for the entire city are. As such, we take the data and split it, handling it depending on if the data is on a community area basis, or for the entire city. This can be seen with the difference between df_coverage_area and df_coverage_city. Finally, it is concatenated together to form the entire dataset that can be transformed and loaded into the database.</p>
 	
