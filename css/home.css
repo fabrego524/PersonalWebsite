@@ -51,6 +51,12 @@ nav ul li{
 	display: inline;
 	margin-left:25px;
 }
+img{
+	float: right;
+	margin-top: 10px;
+	width: 160px;
+	height: 160px;
+}
 
 
 #Introduction{
